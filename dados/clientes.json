@@ -1,0 +1,34 @@
+[
+  {
+    "nome": "Empresa Alfa",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Grupo Beta",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Delta Soluções",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Gama Tech",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Omega Sistemas",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Prime Networks",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Core Digital",
+    "logo": "assets/clientes/combinado.png"
+  },
+  {
+    "nome": "Nova Sistemas",
+    "logo": "assets/clientes/combinado.png"
+  }
+]
