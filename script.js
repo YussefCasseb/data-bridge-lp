@@ -107,8 +107,9 @@ function renderClientes(clientes) {
   track.replaceChildren();
 
   clientes.forEach(cliente => {
+    const nomeValido = String(cliente.nome || '').trim();
     const card = document.createElement('div');
-    card.className = 'client-card';
+    card.className = `client-card${nomeValido ? '' : ' client-card--image-only'}`;
 
     if (cliente.logo) {
       const logo = document.createElement('img');
@@ -122,18 +123,20 @@ function renderClientes(clientes) {
       card.appendChild(icon);
     }
 
-    const span = document.createElement('span');
-    const linhas = quebrarNomeCliente(cliente.nome);
+    if (nomeValido) {
+      const span = document.createElement('span');
+      const linhas = quebrarNomeCliente(cliente.nome);
 
-    linhas.forEach((linha, index) => {
-      if (index > 0) {
-        span.appendChild(document.createElement('br'));
-      }
+      linhas.forEach((linha, index) => {
+        if (index > 0) {
+          span.appendChild(document.createElement('br'));
+        }
+        span.appendChild(document.createTextNode(linha));
+      });
 
-      span.appendChild(document.createTextNode(linha));
-    });
+      card.appendChild(span);
+    }
 
-    card.appendChild(span);
     track.appendChild(card);
   });
 }

@@ -1,34 +1,42 @@
 [
   {
-    "nome": "Empresa Alfa",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/tempo-de-infancia.png"
   },
   {
-    "nome": "Grupo Beta",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "Rodella Advocacia",
+    "logo": "assets/clientes/rodella.png"
   },
   {
-    "nome": "Delta Soluções",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/russo.svg"
   },
   {
-    "nome": "Gama Tech",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/nestor-transportes.png"
   },
   {
-    "nome": "Omega Sistemas",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/astrine.png"
   },
   {
-    "nome": "Prime Networks",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/donega-e-lazini.webp"
   },
   {
-    "nome": "Core Digital",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/doome.avif"
   },
   {
-    "nome": "Nova Sistemas",
-    "logo": "assets/clientes/combinado.png"
+    "nome": "",
+    "logo": "assets/clientes/gcd-advogados.png"
+  },
+  {
+    "nome": "Interellas",
+    "logo": "assets/clientes/interellas.jpg"
+  },
+  {
+    "nome": "",
+    "logo": "assets/clientes/se-advogados.jpg"
   }
 ]
